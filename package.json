@@ -1,6 +1,6 @@
 {
   "name": "jorthix-get-mock-user",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get a complete user data or only parts with mock data provided from https://randomuser.me",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,8 @@
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint"
+    "preversion": "npm run lint",
+    "muster": "npm run build && node lib/index.js"
   },
   "keywords": [
     "mock"
