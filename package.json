@@ -1,7 +1,7 @@
 {
   "name": "jorthix-get-mock-user",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get a complete user data or only parts with mock data provided from https://randomuser.me",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorthix/get-mock-user.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorthix/get-mock-user/issues"
+  },
+  "homepage": "https://github.com/jorthix/get-mock-user#readme"
 }
