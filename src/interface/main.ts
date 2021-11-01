@@ -39,6 +39,11 @@ export interface Login {
     sha256: string
 };
 
+export interface LoginShort {
+    username: string,
+    password: string,
+};
+
 export interface Dob {
     date: string,
     age: number
