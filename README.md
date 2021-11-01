@@ -5,7 +5,8 @@ Get a complete user data or only parts with mock data provided from https://rand
 
 ##### 🙋‍♀️ Get a user 
 ```typescript
-import { getFullUser, User } from 'jorthix-get-mock-user';
+import { getFullUser } from 'jorthix-get-mock-user';
+import { User } from 'jorthix-get-mock-user/lib/interface/main';
 
 // Get a random user object
 getFullUser().then((user): User => {

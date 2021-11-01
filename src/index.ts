@@ -20,5 +20,5 @@ export const getUserPhoto = async (size: "medium" | "large" | "thumbnail" | "all
 module.exports = {
     getFullUser,
     getUserName,
-    getUserPhoto
+    getUserPhoto,
 };
